@@ -10,7 +10,7 @@ A dark theme for XScreenSaver based on a [2011 Ask Ubuntu answer](https://askubu
 ## Installation
 1. Install the `terminus` font
 2. Execute `curl 'https://gitlab.com/Atrate/xscreensaver-overdark-theme/-/raw/master/.Xresources' >> ~/.Xresources && xrdb -merge ~/.Xresources`
-3. Restart XScreenSaver: `killall xscreensaver && xscreensaver`
+3. Restart XScreenSaver: `killall xscreensaver && xscreensaver &`
 
 ## Uninstalation
 1. Remove the lines for the theme from `~/.Xresources`
